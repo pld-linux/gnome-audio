@@ -3,8 +3,9 @@ Name:		gnome-audio
 Version:	1.0.0
 Release:	8
 License:	LGPL
-Group:		Applications/Multimedia
-Source:		ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}.tar.gz
+Group:		X11/Applications/Multimedia
+Group(pl):	X11/Aplikacje/Multimedia
+Source:		ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}rh.tar.gz
 BuildRoot:	/tmp/%{name}-%{version}-root
 URL:		http://www.gnome.org/
 BuildArch:	noarch

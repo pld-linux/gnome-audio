@@ -1,7 +1,7 @@
 Summary:	Sounds for GNOME events.
 Name:		gnome-audio
 Version:	1.0.0
-Release:	9
+Release:	12
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
@@ -20,7 +20,7 @@ package of complementary sounds.
 %setup -q
 
 %package extra
-Summary:	Optional Sounds for GNOME events.
+Summary:	Optional Sounds for GNOME events
 Group:		Applications/Multimedia
 
 %description extra

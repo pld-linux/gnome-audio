@@ -5,16 +5,14 @@ Summary(uk):	П╕дтримка звукових под╕й GNOME
 Summary(zh_CN):	GNOMEйб╪ЧкЫпХ╣диЫрТнд╪Ч
 Name:		gnome-audio
 Version:	1.4.0
-Release:	4
+Release:	5
 License:	LGPL
 Group:		X11/Applications/Multimedia
-Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}.tar.gz
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/1.4/%{name}-%{version}.tar.gz
 URL:		http://www.gnome.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Obsoletes:	gnome-audio-extra
-
-%define		_prefix		/usr/X11R6
 
 %description
 If you use the GNOME desktop environment, you may want to install this

@@ -1,7 +1,7 @@
 Summary:	Sounds for GNOME events.
 Name:		gnome-audio
 Version:	1.0.0
-Release:	8
+Release:	9
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/sounds/logout.wav
 
 %files extra
+%defattr(644,root,root,755)
 %{_datadir}/sounds/card_shuffle.wav
 %{_datadir}/sounds/phone.wav
 %{_datadir}/sounds/startup1.wav

@@ -4,12 +4,12 @@ Summary(ru):	Поддержка звуковых событий GNOME
 Summary(uk):	П╕дтримка звукових под╕й GNOME
 Summary(zh_CN):	GNOMEйб╪ЧкЫпХ╣диЫрТнд╪Ч
 Name:		gnome-audio
-Version:	1.4.0
-Release:	5
+Version:	2.0.0
+Release:	1
 License:	LGPL
 Group:		X11/Applications/Sound
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/1.4/%{name}-%{version}.tar.gz
-# Source0-md5:	412f279a4741b2b14227f1cc36a06d18
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/2.0/%{name}-%{version}.tar.bz2
+# Source0-md5:	cd14b84af59fb2ec673527d32f4e379f
 URL:		http://www.gnome.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -35,7 +35,8 @@ zdarzenia GNOME efektami d╪wiЙkowymi zawartymi w tym pakiecie.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install prefix=$RPM_BUILD_ROOT%{_prefix}
+%{__make} install \
+	prefix=$RPM_BUILD_ROOT%{_prefix}
 
 %clean
 rm -rf $RPM_BUILD_ROOT

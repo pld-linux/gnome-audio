@@ -2,7 +2,7 @@ Summary:	Sounds for GNOME events.
 Summary(pl):	Dzwiêki dla zdarzeñ GNOME.
 Name:		gnome-audio
 Version:	1.4.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}.tar.gz
@@ -37,4 +37,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.gz
-%{_datadir}/sounds
+%{_datadir}/sounds/*

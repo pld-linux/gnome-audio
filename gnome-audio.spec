@@ -1,5 +1,5 @@
-Summary:	Sounds for GNOME events.
-Summary(pl):	Dzwiêki dla zdarzeñ GNOME.
+Summary:	Sounds for GNOME events
+Summary(pl):	Dzwiêki dla zdarzeñ GNOME
 Name:		gnome-audio
 Version:	1.4.0
 Release:	2
@@ -19,7 +19,7 @@ package of complementary sounds.
 
 %description -l pl
 Je¶li u¿ywasz ¶rodowiska GNOME byæ mo¿e bêdziesz chcia³ uzupe³niæ
-zdarzenia GNOME efektami dzwiêkowymi zawartymi w tym pakiecie.
+zdarzenia GNOME efektami d¼wiêkowymi zawartymi w tym pakiecie.
 
 %prep
 %setup -q
@@ -29,12 +29,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install prefix=$RPM_BUILD_ROOT%{_prefix}
 
-gzip -9nf README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README
 %{_datadir}/sounds/*

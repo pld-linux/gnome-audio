@@ -9,6 +9,7 @@ Release:	5
 License:	LGPL
 Group:		X11/Applications/Sound
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/1.4/%{name}-%{version}.tar.gz
+# Source0-md5:	412f279a4741b2b14227f1cc36a06d18
 URL:		http://www.gnome.org/
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

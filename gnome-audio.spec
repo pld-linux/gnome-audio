@@ -5,7 +5,7 @@ Summary(uk):	П╕дтримка звукових под╕й GNOME
 Summary(zh_CN):	GNOMEйб╪ЧкЫпХ╣диЫрТнд╪Ч
 Name:		gnome-audio
 Version:	2.0.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		X11/Applications/Sound
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/2.0/%{name}-%{version}.tar.bz2

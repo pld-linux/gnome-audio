@@ -1,5 +1,5 @@
 Summary:	Sounds for GNOME events
-Summary(pl):	DzwiЙki dla zdarzeЯ GNOME
+Summary(pl):	D╪wiЙki dla zdarzeЯ GNOME
 Summary(ru):	Поддержка звуковых событий GNOME
 Summary(uk):	П╕дтримка звукових под╕й GNOME
 Summary(zh_CN):	GNOMEйб╪ЧкЫпХ╣диЫрТнд╪Ч

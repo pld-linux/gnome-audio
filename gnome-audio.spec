@@ -1,9 +1,10 @@
 Summary:	Sounds for GNOME events.
 Name:		gnome-audio
 Version:	1.0.0
-Release:	12
+Release:	13
 License:	LGPL
 Group:		X11/Applications/Multimedia
+Group(de):	X11/Applikationen/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}rh.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

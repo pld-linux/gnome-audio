@@ -5,7 +5,7 @@ Release:	9
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Group(pl):	X11/Aplikacje/Multimedia
-Source:		ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}rh.tar.gz
+Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}rh.tar.gz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 URL:		http://www.gnome.org/
 BuildArch:	noarch
@@ -13,8 +13,8 @@ BuildArch:	noarch
 %define		_prefix		/usr/X11R6
 
 %description
-If you use the GNOME desktop environment, you may want to
-install this package of complementary sounds.
+If you use the GNOME desktop environment, you may want to install this
+package of complementary sounds.
 
 %prep
 %setup -q

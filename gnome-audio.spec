@@ -7,7 +7,7 @@ Name:		gnome-audio
 Version:	1.4.0
 Release:	5
 License:	LGPL
-Group:		X11/Applications/Multimedia
+Group:		X11/Applications/Sound
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/1.4/%{name}-%{version}.tar.gz
 URL:		http://www.gnome.org/
 BuildArch:	noarch

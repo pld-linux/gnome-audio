@@ -1,15 +1,18 @@
 Summary:	Sounds for GNOME events
 Summary(pl):	DzwiЙki dla zdarzeЯ GNOME
+Summary(ru):	Поддержка звуковых событий GNOME
+Summary(uk):	П╕дтримка звукових под╕й GNOME
+Summary(zh_CN):	GNOMEйб╪ЧкЫпХ╣диЫрТнд╪Ч
 Name:		gnome-audio
 Version:	1.4.0
-Release:	2
+Release:	4
 License:	LGPL
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp.gnome.org/pub/GNOME/stable/sources/gnome-audio/%{name}-%{version}.tar.gz
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 URL:		http://www.gnome.org/
-Obsoletes:	gnome-audio-extra
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	gnome-audio-extra
 
 %define		_prefix		/usr/X11R6
 
@@ -20,6 +23,12 @@ package of complementary sounds.
 %description -l pl
 Je╤li u©ywasz ╤rodowiska GNOME byФ mo©e bЙdziesz chciaЁ uzupeЁniФ
 zdarzenia GNOME efektami d╪wiЙkowymi zawartymi w tym pakiecie.
+
+%description -l ru
+Вы можете установить этот пакет звуков, если используете GNOME.
+
+%description -l uk
+Ви можете встановити цей пакет звук╕в, якщо використову╓те GNOME.
 
 %prep
 %setup -q

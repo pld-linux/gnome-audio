@@ -30,7 +30,7 @@ sounds that the GNOME desktop environment makes.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-make install prefix=$RPM_BUILD_ROOT%{_prefix}
+%{__make} install prefix=$RPM_BUILD_ROOT%{_prefix}
 
 %clean
 rm -rf $RPM_BUILD_ROOT

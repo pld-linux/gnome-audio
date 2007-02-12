@@ -1,8 +1,8 @@
 Summary:	Sounds for GNOME events
-Summary(pl):	D╪wiЙki dla zdarzeЯ GNOME
-Summary(ru):	Поддержка звуковых событий GNOME
-Summary(uk):	П╕дтримка звукових под╕й GNOME
-Summary(zh_CN):	GNOMEйб╪ЧкЫпХ╣диЫрТнд╪Ч
+Summary(pl.UTF-8):   Dе╨wiд≥ki dla zdarzeе└ GNOME
+Summary(ru.UTF-8):   п÷п╬п╢п╢п╣я─п╤п╨п╟ п╥п╡я┐п╨п╬п╡я▀я┘ я│п╬п╠я▀я┌п╦п╧ GNOME
+Summary(uk.UTF-8):   п÷я√п╢я┌я─п╦п╪п╨п╟ п╥п╡я┐п╨п╬п╡п╦я┘ п©п╬п╢я√п╧ GNOME
+Summary(zh_CN.UTF-8):   GNOMEД╨▀Д╩╤Ф┴─И°─Г └Её╟И÷ЁФ√┤Д╩╤
 Name:		gnome-audio
 Version:	2.0.0
 Release:	2
@@ -19,15 +19,15 @@ Obsoletes:	gnome-audio-extra
 If you use the GNOME desktop environment, you may want to install this
 package of complementary sounds.
 
-%description -l pl
-Je╤li u©ywasz ╤rodowiska GNOME byФ mo©e bЙdziesz chciaЁ uzupeЁniФ
-zdarzenia GNOME efektami d╪wiЙkowymi zawartymi w tym pakiecie.
+%description -l pl.UTF-8
+Jeе⌡li uе╪ywasz е⌡rodowiska GNOME byд┤ moе╪e bд≥dziesz chciaе┌ uzupeе┌niд┤
+zdarzenia GNOME efektami dе╨wiд≥kowymi zawartymi w tym pakiecie.
 
-%description -l ru
-Вы можете установить этот пакет звуков, если используете GNOME.
+%description -l ru.UTF-8
+п▓я▀ п╪п╬п╤п╣я┌п╣ я┐я│я┌п╟п╫п╬п╡п╦я┌я▄ я█я┌п╬я┌ п©п╟п╨п╣я┌ п╥п╡я┐п╨п╬п╡, п╣я│п╩п╦ п╦я│п©п╬п╩я▄п╥я┐п╣я┌п╣ GNOME.
 
-%description -l uk
-Ви можете встановити цей пакет звук╕в, якщо використову╓те GNOME.
+%description -l uk.UTF-8
+п▓п╦ п╪п╬п╤п╣я┌п╣ п╡я│я┌п╟п╫п╬п╡п╦я┌п╦ я├п╣п╧ п©п╟п╨п╣я┌ п╥п╡я┐п╨я√п╡, я▐п╨я┴п╬ п╡п╦п╨п╬я─п╦я│я┌п╬п╡я┐я■я┌п╣ GNOME.
 
 %prep
 %setup -q

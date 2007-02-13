@@ -1,8 +1,8 @@
 Summary:	Sounds for GNOME events
-Summary(pl.UTF-8):   Dźwięki dla zdarzeń GNOME
-Summary(ru.UTF-8):   Поддержка звуковых событий GNOME
-Summary(uk.UTF-8):   Підтримка звукових подій GNOME
-Summary(zh_CN.UTF-8):   GNOME事件所需的声音文件
+Summary(pl.UTF-8):	Dźwięki dla zdarzeń GNOME
+Summary(ru.UTF-8):	Поддержка звуковых событий GNOME
+Summary(uk.UTF-8):	Підтримка звукових подій GNOME
+Summary(zh_CN.UTF-8):	GNOME事件所需的声音文件
 Name:		gnome-audio
 Version:	2.0.0
 Release:	2

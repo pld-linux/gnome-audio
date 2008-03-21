@@ -6,7 +6,7 @@ Summary(zh_CN.UTF-8):	GNOME事件所需的声音文件
 Name:		gnome-audio
 Version:	2.22.0
 Release:	1
-License:	LGPL
+License:	Creative Commons (CC-BY-SA 2.0, CC-BY 3.0)
 Group:		X11/Applications/Sound
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-audio/2.22/%{name}-%{version}.tar.bz2
 # Source0-md5:	e80c94dc42e2ccb2e50e74a382eed666
@@ -43,5 +43,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc ChangeLog README
 %{_datadir}/sounds/*

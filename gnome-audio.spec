@@ -8,20 +8,20 @@ Version:	2.22.0
 Release:	1
 License:	LGPL
 Group:		X11/Applications/Sound
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/%{name}/2.22/%{name}-%{version}.tar.bz2
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-audio/2.22/%{name}-%{version}.tar.bz2
 # Source0-md5:	e80c94dc42e2ccb2e50e74a382eed666
 URL:		http://www.gnome.org/
+Obsoletes:	gnome-audio-extra
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	gnome-audio-extra
 
 %description
 If you use the GNOME desktop environment, you may want to install this
 package of complementary sounds.
 
 %description -l pl.UTF-8
-Jeśli używasz środowiska GNOME być może będziesz chciał uzupełnić
-zdarzenia GNOME efektami dźwiękowymi zawartymi w tym pakiecie.
+Ten pakiet zawiera uzupełniające efekty dźwiękowe dla zdarzeń w
+środowisku GNOME.
 
 %description -l ru.UTF-8
 Вы можете установить этот пакет звуков, если используете GNOME.

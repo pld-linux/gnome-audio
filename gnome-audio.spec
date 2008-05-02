@@ -4,12 +4,12 @@ Summary(ru.UTF-8):	Поддержка звуковых событий GNOME
 Summary(uk.UTF-8):	Підтримка звукових подій GNOME
 Summary(zh_CN.UTF-8):	GNOME事件所需的声音文件
 Name:		gnome-audio
-Version:	2.22.0
+Version:	2.22.1
 Release:	1
 License:	Creative Commons (CC-BY-SA 2.0, CC-BY 3.0)
 Group:		X11/Applications/Sound
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-audio/2.22/%{name}-%{version}.tar.bz2
-# Source0-md5:	e80c94dc42e2ccb2e50e74a382eed666
+# Source0-md5:	e0becab4f8360a589de9ffc2ab27c047
 URL:		http://www.gnome.org/
 Obsoletes:	gnome-audio-extra
 BuildArch:	noarch
